@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+  background-color: white;
+}
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+.urgent {
+  font-weight: bold;
+  font-size: 30px;
+}
+li.done {
+  color: blue;
+  text-decoration: line-through;
+}
+h1.done {
+  color: yellow;
+}
+#my-div {
+  color: pink;
+}
+#my-div p {
+  color: black;
+}
+h2 {
+  color: #dadaf3
+}
+.example {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  border: solid black 1px;
+  margin-left: 10px;
+}
+.parent-example {
+  position: relative;
+  
+}
