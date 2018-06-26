@@ -184,3 +184,13 @@
   color: #999999;
   padding-left:70px;
 }
+
+@media screen and (max-width: 1400px) {
+  .block {
+    width: 100%;
+  }
+
+.hidden-div {
+  display: none;
+  }
+}
