@@ -1,23 +1,14 @@
-
-.Main-Page {
-  /* background-color: #eaeaea; */
-
-}
 .block {
-  /* border:10px solid #E13A63; */
   display: inline-block;
   width: 49%;
   height: 600px;
 }
 .block-1 {
-  /* border:10px solid green; */
   display: inline-block;
   width: 48%;
   height: 600px;
-  /* background-color: white; */
 }
 .Phone-block {
-  /* border:10px solid green; */
   width: 48%;
   height: 600px;
   margin-top: 20px;
@@ -29,7 +20,6 @@
   display: block;
 }
 .Logo-block {
-  /* border:10px solid #E13A63; */
   width: 48%;
   height: 50px;
   margin-top: 20px;
@@ -38,14 +28,12 @@
 }
 #Logo-img {
   width: 200px;
-  /* height: 40px; */
   display: block;
   padding-left: 40px;
   padding-top: 0px;
   background-color: white;
 }
 .Sign-in-txt {
-  /* border:10px solid #E13A63; */
   width: 48%;
   height: 50px;
   background-color: white;
@@ -64,7 +52,6 @@
   background-color: white;
 }
 .Log-in-fb {
-  /* border:10px solid #E13A63; */
   width: 48%;
   height: 50px;
   background-color: white;
@@ -78,8 +65,6 @@
   background-color: white;
 }
 .Sign-up-boxes {
-  /* border:10px solid #E13A63; */
-  /* width: 48%; */
   height: 270px;
   background-color: white;
   width: 320px;
@@ -105,7 +90,6 @@
 }
 
 .Sign-up-img-box {
-  /* border:10px solid #E13A63; */
   width: 48%;
   height: 30px;
   background-color: white;
@@ -153,7 +137,6 @@
   padding-top: 40px;
 }
 .block-2 {
-  /* border:10px solid green; */
   display: inline-block;
   width: 90%;
   height: 200px;
@@ -183,4 +166,12 @@
   font-size: 12px;
   color: #999999;
   padding-left:70px;
+}
+@media screen and (max-width: 1400px) {
+  .block {
+    width: 100%;
+  }
+.hidden-div {
+  display: none;
+  }
 }
