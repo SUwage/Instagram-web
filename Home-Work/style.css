@@ -1,0 +1,177 @@
+.block {
+  display: inline-block;
+  width: 49%;
+  height: 600px;
+}
+.block-1 {
+  display: inline-block;
+  width: 48%;
+  height: 600px;
+}
+.Phone-block {
+  width: 48%;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 340px;
+}
+#Phone-img {
+  width: 380px;
+  height: 600px;
+  display: block;
+}
+.Logo-block {
+  width: 48%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: white;
+  width: 320px;
+}
+#Logo-img {
+  width: 200px;
+  display: block;
+  padding-left: 40px;
+  padding-top: 0px;
+  background-color: white;
+}
+.Sign-in-txt {
+  width: 48%;
+  height: 50px;
+  background-color: white;
+  width: 320px;
+}
+.table-one {
+  width: 300px;
+  display:table-cell;
+  border:0;
+  vertical-align:top;
+}
+#sign-uptxt {
+  text-align: center;
+  font-family: Apple System, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: white;
+}
+.Log-in-fb {
+  width: 48%;
+  height: 50px;
+  background-color: white;
+  width: 320px;
+}
+#Log-fb-img {
+  width: 280px;
+  height: 35px;
+  display: block;
+  padding-top: 20px;
+  background-color: white;
+}
+.Sign-up-boxes {
+  height: 270px;
+  background-color: white;
+  width: 320px;
+}
+.table-two {
+  width: 280px;
+  display:table-cell;
+  border:0;
+  vertical-align:top;
+  background-color: white;
+}
+#Or-txt {
+  text-align: center;
+  font-family: Segoe UI, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+#Terms {
+  text-align: center;
+  font-family: Segoe UI, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+
+.Sign-up-img-box {
+  width: 48%;
+  height: 30px;
+  background-color: white;
+  width: 320px;
+}
+.table-three {
+  width: 280px;
+  display:table-cell;
+  border:0;
+  background-color: white;
+  width: 320px;
+}
+#log-in {
+  text-align: center;
+  font-family: Segoe UI, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#search {
+  width: 271px;  height: 2em;
+  font-family: Segoe UI, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+.Next-button {
+  background-color: #67a0fc;
+  border-style: none;
+}
+#ema {
+  width: 20em;  height: 2em;
+}
+#full {
+  width: 265px;  height: 2em;
+}
+#user {
+  width: 265px;  height: 2em;
+}
+#pass {
+  width: 267px;  height: 2em;
+}
+.play-store {
+  display: block;
+  padding-top: 40px;
+}
+.block-2 {
+  display: inline-block;
+  width: 90%;
+  height: 200px;
+}
+.bottom-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.bottom-navbar li {
+  display: inline;
+}
+.bottom-navbar li a {
+  text-decoration: none;
+  display: inline;
+  color: #003569;
+  text-align: center;
+  padding: 30px 10px;
+  font-family: Apple System, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.bottom-navbar li a:hover {
+  text-decoration: underline;
+}
+#copy-right {
+  font-family: Apple System, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #999999;
+  padding-left:70px;
+}
+@media screen and (max-width: 1400px) {
+  .block {
+    width: 100%;
+  }
+.hidden-div {
+  display: none;
+  }
+}
